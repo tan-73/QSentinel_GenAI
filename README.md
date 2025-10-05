@@ -1,9 +1,8 @@
-````markdown
 # 🛰️ Q-Sentinel: EO/IR Threat Detection Module
 
 ## Overview
 
-**Q-Sentinel** is an advanced **drone detection and threat assessment system** that integrates **EO (Electro-Optical)** and **IR (Infrared)** imaging to identify and analyze potential military or aerial threats in real time.  
+**Q-Sentinel** is an advanced **drone detection and threat assessment system** that integrates **EO (Electro-Optical)** and **IR (Infrared)** imaging to identify and analyze potential military or aerial threats in real time.
 
 This module extends the base YOLOv8 detection pipeline by introducing a **vision-language reasoning layer** powered by **Google Gemini**, enabling contextual scene understanding — determining whether detected objects indicate an actual threat.
 
@@ -26,13 +25,15 @@ This module relies on the **Gemini API key** for sending EO/IR frames or detecti
 
 Create an environment variable:
 
+**Linux / macOS:**
+
 ```bash
 export GEMINI_API_KEY="your_api_key_here"
-````
+```
 
-On Windows (PowerShell):
+**Windows (PowerShell):**
 
-```bash
+```powershell
 setx GEMINI_API_KEY "your_api_key_here"
 ```
 
@@ -175,6 +176,3 @@ curl -X POST http://localhost:8080/analyze/image \
 
 This project is licensed under the **MIT License**.
 © 2025 Q-Sentinel Project. All rights reserved.
-
-```
-```
