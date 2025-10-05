@@ -4,10 +4,7 @@
 
 * This project relies on Gemini's vision model capabilities to analyze aerial imagery and classify as threat / non-threat
 
-
-
-
-
+---
 
 API Key Usage (Gemini Integration)
 
